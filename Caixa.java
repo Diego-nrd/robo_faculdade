@@ -1,10 +1,9 @@
+package Robo;
+
 /**
  *@author Diego S da Silva
  */
 
-
-
-package Robo;
 
 public class Caixa{
 	String nome_Item; 

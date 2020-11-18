@@ -1,9 +1,12 @@
+package Robo;
+
 /**
  * @author Diego S da Silva
  */
 
 
-package Robo;
+
+
 public class App {
 	public static void main(String [] args) {
 		Robo objRobo = new Robo();

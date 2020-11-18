@@ -1,9 +1,10 @@
+package Robo;
+
 /**
  * @author Diego S da Silva
  */
 
 
-package Robo;
 
 public class Mundo2D {
 	

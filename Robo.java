@@ -76,7 +76,9 @@ public class Robo {
 	}
 	
 	public void printPos() {
-		System.out.println("(x, y) = (" + posicaoX + ", " + posicaoY + ")");
+		System.out.println("-----------------INFO MOVIMENTÇÕES DO ROBÔ-----------------");
+		System.out.println("Movimentos do eixo do Robo:" + " EixoX " + posicaoX + " EixoY "+ posicaoY );
+		System.out.println("-----------------------------Fim----------------------------");
 	}
 
 	

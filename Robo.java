@@ -25,11 +25,7 @@ private  float posicaoY;
 	
 		this.nome = "R-ATM";
 		this.peso = 70;
-		
-	
-	}
-	
-	
+	}	
 	public void move(float posX, float posY){
 		
 		this.posicaoX = posX;
@@ -44,8 +40,7 @@ private  float posicaoY;
 	public void moveY(float dist) {
 		this.posicaoY += dist;
 	}
-	
-	
+		
 	public void setOrientacao(char tecla) {
 		if(tecla == 'W') {
 			this.orientacao = frente;
@@ -59,12 +54,8 @@ private  float posicaoY;
 		}else if (tecla == 'S') {
 			this.orientacao = atras;
 			
-		}
-		
-		
+		}	
 	}
-	
-
 	public void printStatus() {
 	 System.out.println("-----------------INFO DO Robô-----------------");
 	 System.out.println("Robô de Transporte de Mercadoria: " + nome);
@@ -114,7 +105,5 @@ private  float posicaoY;
 			
 			return false;
 		}
-	}
-	
-	
+	}		
 }

@@ -1,23 +1,18 @@
-package Robo;
-
 /**
- *@author Diego S da Silva
+ * 
+ * @Author Diego S da Silva
+ * 
  */
 
+package Simulator.code;
 
-public class Caixa{
-	String nome_Item; 
-	int qtd; 
-	double peso;
-	float dimensaoC;
-	float dimensaoL;
-	float dimensaoA;
- 	
-	 float posicaoX;
-	 float posicaoY;
+public class Caixa extends caixaIdeia{
+
+public String nome_Item; 
+public int qtd; 
 	
-	 
-	 public Caixa() {
+	
+	public Caixa() {
 		 
 		 this.nome_Item = "HD'S";
 		 this.qtd = 35;
@@ -29,6 +24,7 @@ public class Caixa{
 		 this.posicaoY = 75;
 		 
 	 }
+	
 	 
 	 public void printStatus2() {
 		 System.out.println("-----------------INFO Da Caixa-----------------");
@@ -39,9 +35,12 @@ public class Caixa{
 		 System.out.println("Posição da Caixa:" + " Posicao X " + posicaoX +   "," + " Posicao Y " + posicaoY);
 		 System.out.println("---------------------Fim------------------");
 	 }
-		 
 	 
+	 
+	 public String toString() {
+		 
+		 return "Caixa{"+ "Nome Intem = " + nome_Item + ", Quantidade = " + qtd + '}';
+		 
+	 }
 		
-	
-
 }

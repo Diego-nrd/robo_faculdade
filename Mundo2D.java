@@ -1,15 +1,15 @@
-package Robo;
-
 /**
- * @author Diego S da Silva
+ * 
+ * @Author Diego S da Silva
+ * 
  */
 
-
+package Simulator.code;
 
 public class Mundo2D {
 	
-	float dimensaoX;
-	float dimensaoY;
+public final int dimensaoX;
+public final int dimensaoY;
 
 	
 	public Mundo2D() {
@@ -29,3 +29,4 @@ public class Mundo2D {
 	
 	
 }
+

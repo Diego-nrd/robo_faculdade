@@ -44,5 +44,4 @@ public class App {
 	    objCaixa.printStatus2();
 	    objSala.printStatus3();
 	}
-	
 }
